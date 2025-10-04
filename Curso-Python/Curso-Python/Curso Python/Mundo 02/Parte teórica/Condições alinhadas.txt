@@ -1,0 +1,31 @@
+Condições alinhadas é como se fosse um encaixe das coisas: estruturas condicionais em estruturas condicionais (estruturas alinhadas)
+
+if só tem duas opções = Verdadeiro ou falso
+
+if carro.esquerda():
+    caro.siga
+
+elif --> else e if 
+
+    Só podemos usar if e else uma vez, elif o tanto que for necessário
+    NUNCA USAR elif sem if
+
+sempre começar com if, depois elif ou else
+
+       if variação 1
+
+            bloco 1
+
+
+        elif variação 2
+
+            bloco 2
+
+
+        elif variação 3, 4 ...
+
+            é possivel usar varios elif
+
+
+
+
