@@ -18,10 +18,10 @@ print('É possível formar um triângulo com estes números?')
 if (l1 + l2) > l3 and (l2 + l3) > l1 and l1 + l3 > l2:
     print("Sim, é possível gerar um triângulo.")
 
-    #Condições:
+    # Condições:
     if (l1 == l2 and l1 != l3) or\
-    (l2 == l3 and l2 != l1) or\
-    (l1 == l3 and l1 != l2):
+        (l2 == l3 and l2 != l1) or\
+            (l1 == l3 and l1 != l2):
         print('É um triângulo Isóceles.')
 
     elif l1 == l2 and l1 == l3:
@@ -33,5 +33,4 @@ if (l1 + l2) > l3 and (l2 + l3) > l1 and l1 + l3 > l2:
 else:
     print('Não é possível gerar um triângulo...')
 
-print('-' *20)
-
+print('-' * 20)

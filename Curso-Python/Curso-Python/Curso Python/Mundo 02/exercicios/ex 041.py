@@ -11,9 +11,9 @@ from datetime import date
 print('-'*40)
 sleep(1)
 
-print('''Bem vindo a competição de natação!
+print('''   Bem vindo a competição de natação!
 
-        Insira a sua idade abaixo para sabermos em qual categoria o alocar:''')
+Insira a sua idade abaixo para sabermos em qual categoria o alocar:''')
 
 sleep(1)
 
@@ -30,23 +30,24 @@ if c >=0 and c<=100: #Criando um limitador de idades para evitar erros de digita
     sleep(1)
 
     print(f'Você tem {c} anos...')
+
+    sleep(0.5)
+
+    if c <= 9:
+        print('Você irá competir na categoria mirim.')
+
+    elif c <= 14:
+        print('Você irá competir na categoria infantil.')
+
+    elif c <= 19:
+        print('Você irá competir na categoria júnior')
+
+    elif c <= 25:
+        print('Você irá competir na categoria Sênior.')
+
+    else:
+        print('Você irá competir na categoria Master.')
 else:
     print('Computando...')
     print('Você pode ter digitado o ano de nascimento errado. Por favor reenviar o formulário.')
 
-sleep(0.5)
-
-if c <= 9:
-    print('Você irá competir na categoria mirim.')
-
-elif c > 9 and c <= 14:
-    print('Você irá competir na categoria infantil.')
-
-elif c > 14 and c <= 19:
-    print('Você irá competir na categoria júnior')
-
-elif c > 19 and c <= 25:
-    print('Você irá competir na categoria Sênior.')
-
-elif c > 25:
-    print('Você irá competir na categoria Master.')
