@@ -16,21 +16,20 @@ l3 = float(input('Inserir o último lado do triângulo: '))
 print('É possível formar um triângulo com estes números?')
 # É triângulo?
 if (l1 + l2) > l3 and (l2 + l3) > l1 and l1 + l3 > l2:
-    print("Sim, é possível gerar um triângulo.")
+    print("Sim, é possível gerar um triângulo ", end='')
 
     # Condições:
-    if (l1 == l2 and l1 != l3) or\
-        (l2 == l3 and l2 != l1) or\
-            (l1 == l3 and l1 != l2):
-        print('É um triângulo Isóceles.')
+    if l1 != l2 != l3 != l1: #todos os lados diferentes sem a necessidade do 'and'
+        print('Escaleno.')
 
     elif l1 == l2 and l1 == l3:
-        print('É um triângulo equilátero.')
+        print('Equilátero.')
 
     else:
-        print('Triâgulo com todos os lados diferentes (Triângulo escaleno).')
+        print('Isósceles.')
 
 else:
     print('Não é possível gerar um triângulo...')
 
 print('-' * 20)
+

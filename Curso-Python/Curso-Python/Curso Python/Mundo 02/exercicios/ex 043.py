@@ -11,20 +11,25 @@ from time import sleep
 
 sleep(0.5)
 print('-' *30)
-print('         Calculo de índice de Massa Corporal (IMC)')
+print('Calculo de índice de Massa Corporal (IMC)')
 
 
 
-peso = float(input('Inserir o seu peso  : '))
-altura = float(input('Inserir a sua altura (em centrimetros): '))
-# convertendo altura:
-altura = altura / 100
+peso = float(input('Inserir o seu peso (Kg): '))
+altura = float(input('Inserir a sua altura (m): '))
+
+# convertendo altura para metros caso seja necessário:
+if altura > 100:
+    altura = altura / 100
+else:
+    altura = altura
 
 # IMC:
 
 imc = peso / (altura ** 2)
-print(f'Seu indíce de massa corporal (IMC) é {imc:.1f}. Você está: ')
-sleep(2)
+sleep(1)
+print(f'Seu indíce de massa corporal (IMC) é {imc:.1f}. Você está: ', end = '')
+sleep(0.7)
 # Classificação:
 
 if imc < 18.5:
@@ -40,7 +45,7 @@ elif imc >= 30 and imc <= 40:
     print('Com obesidade.')
 
 else:
-    print('Em obesidade mórbida.')
+    print('Com obesidade mórbida.')
 
 sleep(1)
 print('Para mais informações, sempre busque ajuda profissional para cuidar de sua saúde!')
