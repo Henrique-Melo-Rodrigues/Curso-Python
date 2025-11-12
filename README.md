@@ -1,5 +1,3 @@
-Entendido. Vamos atualizar a estrutura do seu README.md para refletir que a parte teórica está em arquivos .txt e remover a menção à futura migração para Obsidian, mantendo a clareza e o formato do seu projeto.
-
 🐍 Curso Introdutório de Python — Projetos e Prática de Programação
 
 Bem-vindo(a) ao repositório que marca o início da minha jornada na programação com Python.
