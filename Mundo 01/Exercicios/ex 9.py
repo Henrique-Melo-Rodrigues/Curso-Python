@@ -12,17 +12,17 @@ n9=numero*9
 n10=numero*10
 
 print('utilizando o {}, será elaborada uma tabuada.\nA tabuada multiplicará {},multiplicando de 0 a 10.'.format(numero,numero))
-print('{} X 0= {}'.format(numero,n0))
-print('{} X 1= {}'.format(numero,n1))
-print('{} x 2= {}'.format(numero,n2))
-print('{} x 3= {}'.format(numero,n3))
-print('{} X 4= {}'.format(numero,n4))
-print('{} X 5= {}'.format(numero,n5))
-print('{} X 6= {}'.format(numero,n6))
-print('{} X 7= {}'.format(numero,n7))
-print('{} X 8= {}'.format(numero,n8))
-print('{} X 9= {}'.format(numero,n9))
-print('{} X 10= {}'.format(numero,n10))
+print('{} X 0 = {}'.format(numero,n0))
+print('{} X 1 = {}'.format(numero,n1))
+print('{} x 2 = {}'.format(numero,n2))
+print('{} x 3 = {}'.format(numero,n3))
+print('{} X 4 = {}'.format(numero,n4))
+print('{} X 5 = {}'.format(numero,n5))
+print('{} X 6 = {}'.format(numero,n6))
+print('{} X 7 = {}'.format(numero,n7))
+print('{} X 8 = {}'.format(numero,n8))
+print('{} X 9 = {}'.format(numero,n9))
+print('{} X 10 = {}'.format(numero,n10))
 
 
 
