@@ -64,15 +64,15 @@ Mundo 02	ex045.py	Condicionais e Repetições (Exemplo Atual)
 🧰 Ferramentas e Tecnologias Destacadas
 
 Ferramenta	Uso Principal
-🐍 Python 3	Linguagem de programação principal.
-💻 VS Code	Editor de Código e ambiente principal para programar.
-🐧 WSL 2 / Arch Linux	Configuração do Ambiente de Desenvolvimento robusto.
-🧩 Git/GitHub	Versionamento e comprovação da evolução do projeto.
-🗒️ Anotacoes_Teoricas	Resumos e organização do conteúdo teórico (em formato .txt).
+    🐍 Python 3	Linguagem de programação principal.
+    💻 VS Code	Editor de Código e ambiente principal para programar.
+    🐧 WSL 2 / Arch Linux	Configuração do Ambiente de Desenvolvimento robusto.
+    🧩 Git/GitHub	Versionamento e comprovação da evolução do projeto.
+    🗒️ Anotacoes_Teoricas	Resumos e organização do conteúdo teórico (em formato .txt).
 
 ✍️ Autor
 
-Henrique de Melo Rodrigues
+    Henrique de Melo Rodrigues
 
     Estudante de Logística 🎓
 

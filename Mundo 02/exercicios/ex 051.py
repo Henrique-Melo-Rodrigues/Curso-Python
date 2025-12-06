@@ -3,12 +3,10 @@
 
 a1 = int(input('Inserir o primeiro termo: '))
 r = int(input('inserir razão da PA: '))
-n_termos = 10
-an = a1 + (n_termos-1) * r
-an = an + 1
+an = 0
 
-for c in range(a1, an, r):
-    print(f'{a1} + ({c - 1} - 1) * {r} = {c}')
+for c in range(1, 11):
+    an = a1 + (c -1) * r
+    print(f'{an}',end=' → ')
 
-
-print('fim')
+print('FIM')
