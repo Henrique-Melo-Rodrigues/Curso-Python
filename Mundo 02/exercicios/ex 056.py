@@ -5,27 +5,22 @@ maior = 0
 menor = 0
 mulher_nova = 0
 nome_velho = ''
+idade_homem_velho = 0
 for i in range(1, 5):
     print('-'*4, f'{i}° Pessoa', '-'*4)
-    sexo = str(input('sexo: ')).lower()
+    sexo = str(input('sexo [M/F]: ')).lower().strip()
     nome = str(input('Nome: ')).lower().strip()
     idade = int(input('idade: '))
-    if i == 1:
-        soma = idade
-    else:
-        soma = idade + soma
-        if sexo == 'feminino' or 'fem':
-            mulher_nova += 1
-        elif sexo == 'masculino' or 'masc':
-            maior = idade
-            menor = idade
+    soma += idade
+    if i == 1 and sexo in'Mm, ':
+        nome_velho = nome
+        idade_homem_velho = idade
+        if sexo in 'Mm' and idade > idade_homem_velho:
+            idade_homem_velho = idade
             nome_velho = nome
-            if idade > maior:
-                maior = idade
-                nome_velho = nome
-            if idade < menor:
-                menor = idade
+    if sexo == 'f' and idade <20:
+        mulher_nova += 1
 média = (soma / 4)
 print(f'''A média de idade do grupo é de {média} anos.
-O homem mais velho desta lista é {nome_velho}
+O homem mais velho desta lista é {nome_velho} e tem {idade_homem_velho} anos
 e há {mulher_nova} mulhere(s) abaixo dos 20 anos.''')
