@@ -14,13 +14,16 @@ A importância deste repositório vai além do aprendizado da linguagem Python. 
 
     Editor de Código (VS Code): Utilizando e configurando o Visual Studio Code como meu principal visualizador de códigos para Python.
 
-📅 Status Atual do Projeto
+ 📅 Status Atual do Projeto
 
 O projeto está em andamento, atualmente focando nos conteúdos do Mundo 02, que aborda a lógica das Estruturas de Controle (Condicionais e Repetições).
-Mundo	    Status	        Exercícios Previstos
-Mundo 01	✅ Finalizado	    35
-Mundo 02	🛠️ Em Andamento      31
-Mundo 03	⏳ Próximo	        34
+```
+| Mundo    | Status          | Aulas |
+|----------|-----------------|-------|
+| Mundo 01 | ✅ Finalizado   | 35    |
+| Mundo 02 | 🛠️ Em andamento | 31    |
+| Mundo 03 | ⏳ Próximo      | 34    |
+```
 
 📂 Estrutura do Repositório
 
@@ -76,12 +79,15 @@ Mundo 02	ex58.py	| ![Condicionais e Laços de repetições](./Imagens/ex58-jogo-
 
 🧰 Ferramentas e Tecnologias Destacadas
 
-Ferramenta	Uso Principal
-    🐍 Python 3             Linguagem de programação estudada.
-    💻 VS Code	            Editor de Código e ambiente principal para programar.
-    🐧 WSL 2 / Arch Linux   Configuração do Ambiente de Desenvolvimento robusto.
-    🧩 Git/GitHub	        Versionamento e comprovação da evolução do projeto.
-    🗒️ Anotacoes_Teoricas	 Resumos e organização do conteúdo teórico (em formato .txt).
+    🐍 Python 3          Linguagem de programação estudada.
+
+    💻 VS Code           Editor de Código e ambiente principal para programar.
+
+    🐧 WSL 2 / Arch Linux Configuração do Ambiente de Desenvolvimento robusto.
+
+    🧩 Git/GitHub        Versionamento e comprovação da evolução do projeto.
+
+    🗒️ Anotacoes_Teoricas Resumos e organização do conteúdo teórico (em formato .txt).
 
 ✍️ Autor
 
