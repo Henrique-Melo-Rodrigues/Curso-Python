@@ -31,11 +31,25 @@ O conteúdo do curso, dividido em teoria e prática, está organizado nos diret�
 │
 ├── 📘 README.md
 │
-├── 📁 Mundo_01/
+├── 📁 Mundo_01/                  # Exercícios do Mundo 1
 │   ├── 🐍 ex001.py
+│   ├── 🐍 ex002.py
 │   └── ...
 │
-└── 📷 Imagens/
+├── 📁 Mundo_02/                  # Exercícios do Mundo 2 (atual)
+│   ├── 🐍 ex036.py
+│   ├── 🐍 ex037.py
+│   └── ...
+│
+├── 📁 Mundo_03/                  # Exercícios do Mundo 3 (futuro)
+│   └── ...
+│
+├── 🗒️ Anotacoes_Teoricas/        # Aulas teóricas e resumos
+│   ├── 01_Introducao.txt
+│   ├── 02_Estruturas_Condicionais.txt
+│   └── ...
+│
+└── 📷 Imagens/                   # Imagens usadas em anotações/README
     └── ...
 ```
 
