@@ -26,30 +26,18 @@ Mundo 03	⏳ Próximo	        34
 
 O conteúdo do curso, dividido em teoria e prática, está organizado nos diretórios abaixo, seguindo a estrutura de "mundos" do material de apoio.
 
+```text
 📦 Curso-python/
 │
 ├── 📘 README.md
 │
-├── 📁 Mundo_01/                  # Exercícios do Mundo 1
+├── 📁 Mundo_01/
 │   ├── 🐍 ex001.py
-│   ├── 🐍 ex002.py
 │   └── ...
 │
-├── 📁 Mundo_02/                  # Exercícios do Mundo 2 (atual)
-│   ├── 🐍 ex036.py
-│   ├── 🐍 ex037.py
-│   └── ...
-│
-├── 📁 Mundo_03/                  # Exercícios do Mundo 3 (futuro)
-│   └── ...
-│
-├── 🗒️ Anotacoes_Teoricas/        # Aulas teóricas e resumos
-│   ├── 01_Introducao.txt
-│   ├── 02_Estruturas_Condicionais.txt
-│   └── ...
-│
-└── 📷 Imagens/                   # Imagens usadas em anotações/README
+└── 📷 Imagens/
     └── ...
+```
 
 
     Mundo_XX: Contêm os arquivos .py com as resoluções dos exercícios práticos.
@@ -68,9 +56,9 @@ O conteúdo do curso, dividido em teoria e prática, está organizado nos diret�
 
 Aqui estão alguns registros de códigos desenvolvidos nos mundos que já avancei:
 Mundo	Exercício Exemplo	Conteúdo	Imagem
-Mundo 01    ex00.py     | ![Primeiros passos na linguagem python] (./Imagens/ex00-hello-word.png)
-Mundo 01	ex020.py	| ![Estruturas Sequenciais Básicas] (.Imagens/ex20-ordem-de-apresentação.png)
-Mundo 02	ex058.py	| ![Condicionais e Laços de repetições] (.Imagens/ex58-jogo-de-sorteio.png)
+Mundo 01    ex00.py | ![Primeiros passos na linguagem python](./Imagens/ex00-hello-word.png)
+Mundo 01	ex20.py	| ![Estruturas Sequenciais Básicas](./Imagens/ex20-ordem-de-apresentação.png)
+Mundo 02	ex58.py	| ![Condicionais e Laços de repetições](./Imagens/ex58-jogo-de-sorteio.png)
 
 🧰 Ferramentas e Tecnologias Destacadas
 
