@@ -6,7 +6,7 @@ r = int(input('inserir razão da PA: '))
 an = 0
 
 for c in range(1, 11):
-    an = a1 + (c -1) * r
+    an = a1 + (c - 1) * r
     print(f'{an}',end=' → ')
 
 print('FIM')
