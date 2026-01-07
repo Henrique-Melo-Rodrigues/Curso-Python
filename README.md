@@ -21,7 +21,7 @@ O projeto está em andamento, atualmente focando nos conteúdos do Mundo 02, que
 | Mundo    | Status          | Aulas |
 |----------|-----------------|-------|
 | Mundo 01 | ✅ Finalizado   | 35    |
-| Mundo 02 | 🛠️ Em andamento | 31    |
+| Mundo 02 | ✅ Finalizado   | 31    |
 | Mundo 03 | ⏳ Próximo      | 34    |
 ```
 
@@ -39,7 +39,7 @@ O conteúdo do curso, dividido em teoria e prática, está organizado nos diret�
 │   ├── 🐍 ex002.py
 │   └── ...
 │
-├── 📁 Mundo_02/                  # Exercícios do Mundo 2 (atual)
+├── 📁 Mundo_02/                  # Exercícios do Mundo 2 
 │   ├── 🐍 ex036.py
 │   ├── 🐍 ex037.py
 │   └── ...
