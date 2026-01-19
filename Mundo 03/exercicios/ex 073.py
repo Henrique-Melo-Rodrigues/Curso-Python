@@ -1,8 +1,8 @@
 from time import sleep
 
-tabela = ('Flamengo', 'Palmeiras', 'Cruzeiro', 'Mirassol', 'Fluminense', 'Botafogo', 'Bahia', 'São Paulo', 'Grêmio',
-          'Bragantino', 'Atlético-MG', 'Santos', 'Corinthians', 'Vasco da Gama', 'Vitória',
-          'Internacional', 'Ceará', 'Fortaleza', 'Juventude', 'Sport Recife')
+tabela = ('Flamengo', 'Palmeiras', 'Cruzeiro', 'Mirassol', 'Fluminense', 'Botafogo', 'Bahia',
+          'São Paulo', 'Grêmio', 'Bragantino', 'Atlético-MG', 'Santos', 'Corinthians',
+          'Vasco da Gama', 'Vitória', 'Internacional', 'Ceará', 'Fortaleza', 'Juventude', 'Sport Recife')
 
 print('{:-^40}'.format('Tabela do Brasileirão 2025'))
 sleep(1)

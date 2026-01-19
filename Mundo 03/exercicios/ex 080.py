@@ -5,7 +5,7 @@ No final, mostre a lista ordenada na tela.'''
 numeros = list()
 
 for c in range(0,5):
-    n = int(input('Digite um número: '))
+    n = int(input(f'Digite o {c + 1}° número: '))
     if c == 0 or n > numeros[-1]:
         numeros.append(n)
         print('Adicionado ao final da lista...')
