@@ -9,12 +9,13 @@ while True:
         print('Valor adicionado com sucesso.')
     else:
         print(f'{n} já existe na lista de números... Não vou adicionar novamente.')
+        continue
     opção = str(input('Deseja continuar? [S/N]: ').upper().strip()[0])
     while opção not in 'SsNn':
         print('Opção inválida.')
         opção = str(input('Deseja continuar? [S/N]: ').upper().strip()[0])
     if opção in 'Nn':
-        break   
+        break
 numbers.sort()
 print(f'os números em ordem crescente são: {numbers}')
 

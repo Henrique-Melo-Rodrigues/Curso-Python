@@ -2,7 +2,6 @@
 A) Quantos números foram digitados.
 B) A lista de valores, ordenada de forma decrescente.
 C) Se o valor 5 foi digitado e está ou não na lista.'''
-quantidade = 0
 numeros = []
 while True:
     n = (int(input('Inserir um valor: ')))
@@ -10,7 +9,6 @@ while True:
         numeros.append(n)
         print('Valor adicionado com sucesso.')
         print('-='*40)
-        quantidade += 1
     else:
         print(f'O número {n} já foi adicionado... Tente outro número.')
         print('-='*40)
@@ -25,7 +23,7 @@ while True:
         break
 numeros.sort(reverse=True)
 print('-='*40)
-print(f'Foram digitados {quantidade} números diferentes e a lista dos números de forma decrescente é {numeros}')
+print(f'Foram digitados {len(numeros)} números diferentes e a lista dos números de forma decrescente é {numeros}')
 if 5 not in numeros:
     print('E o valor 5 não foi encotrado na lista')
 else:

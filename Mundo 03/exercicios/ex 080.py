@@ -4,7 +4,7 @@ No final, mostre a lista ordenada na tela.'''
 
 numeros = list()
 
-for c in range(0,5):
+for c in range(0, 5):
     n = int(input(f'Digite o {c + 1}° número: '))
     if c == 0 or n > numeros[-1]:
         numeros.append(n)
@@ -14,10 +14,9 @@ for c in range(0,5):
         while pos < len(numeros):
             if n <= numeros[pos]:
                 numeros.insert(pos, n)
-                print(f'Adicionado na posição {pos} da lista...')
+                print(f'Adicionado na posição {pos} da lista...')   
                 break
             pos += 1
 
 print('-='*30)
-print(f'Os valores digitados foram os números {numeros}')
-
+print(f'Os valores digitados em ordem foram {numeros}')

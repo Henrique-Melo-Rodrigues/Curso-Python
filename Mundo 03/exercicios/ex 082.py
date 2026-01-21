@@ -14,7 +14,6 @@ while True:
         par.append(n)
     else:
         impar.append(n)
-
     escolha = str(input('Deseja continuar? [S/N]: ').upper().strip()[0])
     while escolha not in 'SsNn':
         print('Opção inválida. ')
@@ -27,6 +26,7 @@ if len(par) > 0:
     print(f'Os números pares obtidos foram: {par}')
 else:
     print('Não foi computado nenhum número par.')
+    
 if len(impar) > 0:
     print(f'Já os ímpares computados: {impar}')
 else:
