@@ -3,8 +3,8 @@ numéricos e cadastre-os em uma lista única que mantenha separados os valores p
 e ímpares. No final, mostre os valores pares e ímpares em ordem crescente.'''
 
 numbers = [[],[]] #[0] = par, [1] = impar
-for i in range(0,7):
-    n=(int(input('Inserir um número: ')))
+for i in range(1,8):
+    n=(int(input(f'Inserir o {i}° número: ')))
     if n % 2 == 0:
         numbers[0].append(n)
     else:
@@ -12,6 +12,6 @@ for i in range(0,7):
 print('-=' *30)
 numbers[0].sort()
 numbers[1].sort()
-print(f'Os valores digitados foram: {numbers}.')
-print('Lista 1 == Números pares')
-print('Lista 2 == Números ímpares')
+print('-=' * 30)
+print(f'Os valores pares digitados foram: {numbers[0]}.')
+print(f'Os valores ímpares digitados foram: {numbers[1]}')

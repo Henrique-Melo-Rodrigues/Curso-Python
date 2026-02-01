@@ -16,7 +16,7 @@ while True:
     else:
         if cadastro[1] > maior:
             maior = cadastro[1]
-        elif cadastro[1] < menor:
+        if cadastro[1] < menor:
             menor = cadastro[1]
     cadastro.clear()
 
