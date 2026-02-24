@@ -4,13 +4,14 @@ No final, mostre o conteúdo da estrutura na tela.'''
 
 aluno = {}
 aluno['Nome'] = str(input('Nome do(a) aluno(a): ')).capitalize().strip()
-aluno['Média'] = float(input('Média do(a) aluno(a):  '))
+aluno['Média'] = float(input(f'Média do(a) {aluno["Nome"]}:  '))
 
-if aluno['Média'] >=7:
+if aluno['Média'] >= 7:
     aluno['Situação'] = 'Aprovado.'
+elif 5 <= aluno['Média'] <7:
+    aluno['Situação'] = 'Recuperação.'
 else:
     aluno['Situação'] = 'Reprovado'
-print(f'O nome é igual {aluno["Nome"]}')
-print(f'Média igual {aluno["Média"]}')
-print(f'Situação igual a {aluno["Situação"]}')
-
+for k, v in aluno.items():
+    print(f' - {k}: {v}')
+ 

@@ -9,5 +9,5 @@ print(pessoas.values())
 print(pessoas.keys())
 print(pessoas.items()) #Composição de elementos: Gera uma lista com tuplas para cada item no key no dicionário
 
-for keys, values in pessoas.items(): #Utilizar items ao invés de enumerate()
+for keys, values in pessoas.items(): #Utilizar items() ao invés de enumerate()
     print(f'{keys}: {values}')
